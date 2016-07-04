@@ -52,7 +52,7 @@ def predict(theta,data):
 			correct+=1
 	print "Accuracy = ",correct*100/m,"%"
 
-data1 = np.loadtxt("data.txt",delimiter=",")
+data1 = np.loadtxt("data_logistic_regression.txt",delimiter=",")
 data = data1[0:80]
 m = data[:,[0]].size
 x1 = data[:,0]
