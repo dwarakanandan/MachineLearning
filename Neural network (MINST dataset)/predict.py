@@ -31,7 +31,7 @@ np.seterr(all="ignore")
 input_units = 784
 hidden_units = 300
 output_units = 10
-rval = np.load("/home/nandu/Desktop/Neural network (MINST dataset)/saves/09-01:59:49/iteration87.npy")
+rval = np.load("/home/nandu/Desktop/Machine learning/Neural network (MINST dataset)/results/2L-NN-784-300.npy")
 x_test = imread("p1.png")
 y_test= 0
 predict(x_test.flatten(),rval)
